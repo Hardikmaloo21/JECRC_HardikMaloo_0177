@@ -1,0 +1,15 @@
+C:\Users\Hardik\Desktop\ArrayBasics\ArrayBasics\bin\Debug\net9.0\ArrayBasics.exe
+C:\Users\Hardik\Desktop\ArrayBasics\ArrayBasics\bin\Debug\net9.0\ArrayBasics.deps.json
+C:\Users\Hardik\Desktop\ArrayBasics\ArrayBasics\bin\Debug\net9.0\ArrayBasics.runtimeconfig.json
+C:\Users\Hardik\Desktop\ArrayBasics\ArrayBasics\bin\Debug\net9.0\ArrayBasics.dll
+C:\Users\Hardik\Desktop\ArrayBasics\ArrayBasics\bin\Debug\net9.0\ArrayBasics.pdb
+C:\Users\Hardik\Desktop\ArrayBasics\ArrayBasics\obj\Debug\net9.0\ArrayBasics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hardik\Desktop\ArrayBasics\ArrayBasics\obj\Debug\net9.0\ArrayBasics.AssemblyInfoInputs.cache
+C:\Users\Hardik\Desktop\ArrayBasics\ArrayBasics\obj\Debug\net9.0\ArrayBasics.AssemblyInfo.cs
+C:\Users\Hardik\Desktop\ArrayBasics\ArrayBasics\obj\Debug\net9.0\ArrayBasics.csproj.CoreCompileInputs.cache
+C:\Users\Hardik\Desktop\ArrayBasics\ArrayBasics\obj\Debug\net9.0\ArrayBasics.sourcelink.json
+C:\Users\Hardik\Desktop\ArrayBasics\ArrayBasics\obj\Debug\net9.0\ArrayBasics.dll
+C:\Users\Hardik\Desktop\ArrayBasics\ArrayBasics\obj\Debug\net9.0\refint\ArrayBasics.dll
+C:\Users\Hardik\Desktop\ArrayBasics\ArrayBasics\obj\Debug\net9.0\ArrayBasics.pdb
+C:\Users\Hardik\Desktop\ArrayBasics\ArrayBasics\obj\Debug\net9.0\ArrayBasics.genruntimeconfig.cache
+C:\Users\Hardik\Desktop\ArrayBasics\ArrayBasics\obj\Debug\net9.0\ref\ArrayBasics.dll

@@ -1,0 +1,14 @@
+C:\Users\Hardik\Desktop\dotnet\day4\ArrayList\bin\Debug\net10.0\ArrayList.exe
+C:\Users\Hardik\Desktop\dotnet\day4\ArrayList\bin\Debug\net10.0\ArrayList.deps.json
+C:\Users\Hardik\Desktop\dotnet\day4\ArrayList\bin\Debug\net10.0\ArrayList.runtimeconfig.json
+C:\Users\Hardik\Desktop\dotnet\day4\ArrayList\bin\Debug\net10.0\ArrayList.dll
+C:\Users\Hardik\Desktop\dotnet\day4\ArrayList\bin\Debug\net10.0\ArrayList.pdb
+C:\Users\Hardik\Desktop\dotnet\day4\ArrayList\obj\Debug\net10.0\ArrayList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hardik\Desktop\dotnet\day4\ArrayList\obj\Debug\net10.0\ArrayList.AssemblyInfoInputs.cache
+C:\Users\Hardik\Desktop\dotnet\day4\ArrayList\obj\Debug\net10.0\ArrayList.AssemblyInfo.cs
+C:\Users\Hardik\Desktop\dotnet\day4\ArrayList\obj\Debug\net10.0\ArrayList.csproj.CoreCompileInputs.cache
+C:\Users\Hardik\Desktop\dotnet\day4\ArrayList\obj\Debug\net10.0\ArrayList.dll
+C:\Users\Hardik\Desktop\dotnet\day4\ArrayList\obj\Debug\net10.0\refint\ArrayList.dll
+C:\Users\Hardik\Desktop\dotnet\day4\ArrayList\obj\Debug\net10.0\ArrayList.pdb
+C:\Users\Hardik\Desktop\dotnet\day4\ArrayList\obj\Debug\net10.0\ArrayList.genruntimeconfig.cache
+C:\Users\Hardik\Desktop\dotnet\day4\ArrayList\obj\Debug\net10.0\ref\ArrayList.dll
