@@ -1,0 +1,15 @@
+C:\Users\Hardik\Desktop\CAPGEMINI.Net\StudentEVSystem\StudentEVSystem\bin\Debug\net9.0\StudentEVSystem.exe
+C:\Users\Hardik\Desktop\CAPGEMINI.Net\StudentEVSystem\StudentEVSystem\bin\Debug\net9.0\StudentEVSystem.deps.json
+C:\Users\Hardik\Desktop\CAPGEMINI.Net\StudentEVSystem\StudentEVSystem\bin\Debug\net9.0\StudentEVSystem.runtimeconfig.json
+C:\Users\Hardik\Desktop\CAPGEMINI.Net\StudentEVSystem\StudentEVSystem\bin\Debug\net9.0\StudentEVSystem.dll
+C:\Users\Hardik\Desktop\CAPGEMINI.Net\StudentEVSystem\StudentEVSystem\bin\Debug\net9.0\StudentEVSystem.pdb
+C:\Users\Hardik\Desktop\CAPGEMINI.Net\StudentEVSystem\StudentEVSystem\obj\Debug\net9.0\StudentEVSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hardik\Desktop\CAPGEMINI.Net\StudentEVSystem\StudentEVSystem\obj\Debug\net9.0\StudentEVSystem.AssemblyInfoInputs.cache
+C:\Users\Hardik\Desktop\CAPGEMINI.Net\StudentEVSystem\StudentEVSystem\obj\Debug\net9.0\StudentEVSystem.AssemblyInfo.cs
+C:\Users\Hardik\Desktop\CAPGEMINI.Net\StudentEVSystem\StudentEVSystem\obj\Debug\net9.0\StudentEVSystem.csproj.CoreCompileInputs.cache
+C:\Users\Hardik\Desktop\CAPGEMINI.Net\StudentEVSystem\StudentEVSystem\obj\Debug\net9.0\StudentEVSystem.sourcelink.json
+C:\Users\Hardik\Desktop\CAPGEMINI.Net\StudentEVSystem\StudentEVSystem\obj\Debug\net9.0\StudentEVSystem.dll
+C:\Users\Hardik\Desktop\CAPGEMINI.Net\StudentEVSystem\StudentEVSystem\obj\Debug\net9.0\refint\StudentEVSystem.dll
+C:\Users\Hardik\Desktop\CAPGEMINI.Net\StudentEVSystem\StudentEVSystem\obj\Debug\net9.0\StudentEVSystem.pdb
+C:\Users\Hardik\Desktop\CAPGEMINI.Net\StudentEVSystem\StudentEVSystem\obj\Debug\net9.0\StudentEVSystem.genruntimeconfig.cache
+C:\Users\Hardik\Desktop\CAPGEMINI.Net\StudentEVSystem\StudentEVSystem\obj\Debug\net9.0\ref\StudentEVSystem.dll
