@@ -1,0 +1,9 @@
+C:\Users\Hardik\Desktop\10-03-2026\JwtRoleAuthAPI\obj\Debug\net10.0\JwtRoleAuthAPI.csproj.AssemblyReference.cache
+C:\Users\Hardik\Desktop\10-03-2026\JwtRoleAuthAPI\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\Hardik\Desktop\10-03-2026\JwtRoleAuthAPI\obj\Debug\net10.0\JwtRoleAuthAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hardik\Desktop\10-03-2026\JwtRoleAuthAPI\obj\Debug\net10.0\JwtRoleAuthAPI.AssemblyInfoInputs.cache
+C:\Users\Hardik\Desktop\10-03-2026\JwtRoleAuthAPI\obj\Debug\net10.0\JwtRoleAuthAPI.AssemblyInfo.cs
+C:\Users\Hardik\Desktop\10-03-2026\JwtRoleAuthAPI\obj\Debug\net10.0\JwtRoleAuthAPI.csproj.CoreCompileInputs.cache
+C:\Users\Hardik\Desktop\10-03-2026\JwtRoleAuthAPI\obj\Debug\net10.0\JwtRoleAuthAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Hardik\Desktop\10-03-2026\JwtRoleAuthAPI\obj\Debug\net10.0\JwtRoleAuthAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Hardik\Desktop\10-03-2026\JwtRoleAuthAPI\obj\Debug\net10.0\JwtRoleAuthAPI.sourcelink.json
