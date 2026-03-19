@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Advanced Todo App</title>
+
+<style>
+
+body{
+font-family:Arial;
+background:#f2f2f2;
+display:flex;
+justify-content:center;
+margin-top:40px;
+transition:0.3s;
+}
+
+.dark{
+background:#121212;
+color:white;
+}
+
+.container{
+background:white;
+padding:25px;
+width:500px;
+border-radius:8px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.dark .container{
+background:#1e1e1e;
+}
+
+input,select{
+padding:8px;
+margin:4px;
+}
+
+button{
+padding:6px 10px;
+margin:2px;
+cursor:pointer;
+}
+
+ul{
+list-style:none;
+padding:0;
+}
+
+li{
+display:flex;
+justify-content:space-between;
+padding:6px;
+border-bottom:1px solid #ddd;
+}
+
+.completed{
+text-decoration:line-through;
+color:gray;
+}
+
+.priority{
+color:rgb(236, 84, 84);
+font-weight:bold;
+}
+
+.optional{
+color:green;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Todo App</h2>
+
+<input id="taskInput" placeholder="Enter task">
+
+<select id="priority">
+<option value="Priority">Priority</option>
+<option value="Optional">Optional</option>
+</select>
+
+<button onclick="addTask()">Add</button>
+
+<br><br>
+
+<input id="search" placeholder="Search task" onkeyup="loadTodos()">
+
+<br><br>
+
+<button onclick="setFilter('all')">All</button>
+<button onclick="setFilter('active')">Active</button>
+<button onclick="setFilter('completed')">Completed</button>
+
+<button onclick="toggleDark()">Dark Mode</button>
+
+<h3>Tasks</h3>
+
+<ul id="todoList"></ul>
+
+</div>
+
+<script>
+
+const API="http://localhost:5114/api/todo"
+
+let filter="all"
+
+function setFilter(type){
+filter=type
+loadTodos()
+}
+
+function toggleDark(){
+document.body.classList.toggle("dark")
+}
+
+async function loadTodos(){
+
+const res=await fetch(API)
+let todos=await res.json()
+
+const search=document.getElementById("search").value.toLowerCase()
+
+if(search){
+todos=todos.filter(t=>t.title.toLowerCase().includes(search))
+}
+
+if(filter==="active")
+todos=todos.filter(t=>!t.isCompleted)
+
+if(filter==="completed")
+todos=todos.filter(t=>t.isCompleted)
+
+const list=document.getElementById("todoList")
+list.innerHTML=""
+
+todos.forEach(todo=>{
+
+const li=document.createElement("li")
+
+if(todo.isCompleted)
+li.classList.add("completed")
+
+li.innerHTML=`
+
+<span class="${todo.priority==='Priority'?'priority':'optional'}">
+<input type="checkbox"
+${todo.isCompleted?'checked':''}
+onchange="toggle(${todo.id},'${todo.title}','${todo.priority}',this.checked)">
+${todo.title}
+</span>
+
+<div>
+<button onclick="editTask(${todo.id},'${todo.title}','${todo.priority}')">Edit</button>
+<button onclick="deleteTask(${todo.id})">Delete</button>
+</div>
+`
+
+list.appendChild(li)
+
+})
+
+}
+
+async function addTask(){
+
+const title=document.getElementById("taskInput").value
+const priority=document.getElementById("priority").value
+
+if(title==="") return
+
+await fetch(API,{
+method:"POST",
+headers:{'Content-Type':'application/json'},
+body:JSON.stringify({
+title:title,
+priority:priority,
+isCompleted:false
+})
+})
+
+document.getElementById("taskInput").value=""
+
+loadTodos()
+
+}
+
+async function deleteTask(id){
+
+await fetch(`${API}/${id}`,{
+method:"DELETE"
+})
+
+loadTodos()
+
+}
+
+async function toggle(id,title,priority,isCompleted){
+
+await fetch(`${API}/${id}`,{
+method:"PUT",
+headers:{'Content-Type':'application/json'},
+body:JSON.stringify({
+id:id,
+title:title,
+priority:priority,
+isCompleted:isCompleted
+})
+})
+
+loadTodos()
+
+}
+
+function editTask(id,title,priority){
+
+const newTitle=prompt("Edit task",title)
+
+if(!newTitle) return
+
+fetch(`${API}/${id}`,{
+method:"PUT",
+headers:{'Content-Type':'application/json'},
+body:JSON.stringify({
+id:id,
+title:newTitle,
+priority:priority,
+isCompleted:false
+})
+}).then(loadTodos)
+
+}
+
+loadTodos()
+
+</script>
+
+</body>
+</html>
